@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anish.mrboxandroid.SignUpLogin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boxcircle"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textSize="24dp" />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/signup"
+            android:background="@drawable/zoom"
+            android:layout_marginLeft="25dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textSize="24dp" />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/login"
+            android:background="@drawable/log"
+            android:layout_marginLeft="25dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
